@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that wraps the entire portfolio with ThemeProvider and renders all sections (Hero, About, Projects, Experience, Contact, Footer) with a theme toggle button.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for fetching and mutating backend data including projects, experiences, services, skills, and contact information with proper cache invalidation.",
+  "frontend/src/sections/Hero.tsx": "Hero section component with CSS-based animations for name, role, value statement, and CTAs using opacity and transform transitions triggered on mount.",
+  "frontend/src/sections/About.tsx": "About section with Intersection Observer API for scroll-triggered animations, displaying profile photo, bio, and skill badges with staggered entrance effects.",
+  "frontend/src/sections/Projects.tsx": "Projects showcase section using Intersection Observer for scroll animations, displaying three featured projects in a responsive grid with hover effects and tech stack badges.",
+  "frontend/src/sections/Experience.tsx": "Combined experience and services section with Intersection Observer-based animations showing professional work history and service offerings in animated cards.",
+  "frontend/src/sections/Contact.tsx": "Contact section with scroll-triggered animations using Intersection Observer, displaying contact information cards, social media links, and email CTA button.",
+  "frontend/src/sections/Footer.tsx": "Minimal footer component with copyright notice and attribution to caffeine.ai with a heart icon.",
+  "frontend/src/components/ThemeToggle.tsx": "Fixed position theme toggle button component that switches between light and dark modes using next-themes with smooth icon transitions.",
+  "frontend/src/index.css": "Global styles with Playfair Display and Inter font imports, premium OKLCH color system for light/dark modes, custom scrollbar styling, and utility classes for glassmorphism effects.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended theme including custom font families (Playfair Display for headings, Inter for body), enhanced color tokens, and glass shadow effects."
+}
